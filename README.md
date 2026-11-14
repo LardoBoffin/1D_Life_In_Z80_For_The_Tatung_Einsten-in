@@ -4,3 +4,5 @@ An implementation of Life in 1D in Z80 Assembly for the Tatung Einstein, based o
 This is as direct a port of the 6502 as I can manage and was created using the Tatung Bytes Assembly lab - https://www.tatungbytes.co.uk/assembly-lab.
 
 Thanks to AI for converting the RNG section to Z80 for me! Seeding with R (the memory Refresh counter) makes for a good variety of starts when combined with the '--- Press Any Key To Start ---' message which waits for a key press before seeding the RNG. This eliminates the situation where the RNG always has the same seed.
+
+You can run this by opening the Assembly Lab from above and pasting in the .asm text and then clicking Run.
